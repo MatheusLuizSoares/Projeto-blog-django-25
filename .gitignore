@@ -74,6 +74,11 @@ wheels/
 pip-log.txt 
 pip-delete-this-directory.txt 
 /data
+./data
+/data/*
+./data/
+!/data/.gitkeep
+
 # Unit test / coverage reports 
 htmlcov/ 
 .tox/ 

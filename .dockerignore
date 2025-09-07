@@ -1,7 +1,8 @@
 *.pyc
 *.pyo 
 *.mo 
-*db 
+*db
+*.db 
 *.css.map
 *egg-info
 *.sql.gz
