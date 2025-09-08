@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "blog",
-    'django_summernote'
+    'django_summernote',
+    'site_setup',
 ]
 
 MIDDLEWARE = [
