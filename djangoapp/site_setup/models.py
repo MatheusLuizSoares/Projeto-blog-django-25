@@ -31,6 +31,11 @@ class SiteSetup(models.Model):
     show_description = models.BooleanField(default=True)
     show_pagination = models.BooleanField(default=True)
     show_footer = models.BooleanField(default=True)
+    #campos de enviar imagens
+    favicon = models.ImageField(
+      upload_to='aasets/favicon/%y/%m/',
+      blank=True, default=''
+    )
     
 def __str__(self):
         return self.title
